@@ -54,44 +54,13 @@ export const initialSettings = {
 export type Settings = typeof initialSettings
 
 export const textGenModels: Model[] = [{
-    id: 'gemini-pro',
-    name: 'Gemini Pro',
-    provider: 'google',
-    type: 'chat'
-}, {
-    id: 'gpt-3.5-turbo',
-    name: 'ChatGPT-3.5-turbo',
-    provider: 'openai',
-    endpoint: 'chat/completions',
-    type: 'chat'
-}, {
     id: '@cf/qwen/qwen1.5-14b-chat-awq',
     name: 'qwen1.5-14b-chat-awq',
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@cf/openchat/openchat-3.5-0106',
-    name: 'openchat-3.5-0106',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@cf/google/gemma-7b-it-lora',
-    name: 'gemma-7b-it-lora',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@hf/thebloke/openhermes-2.5-mistral-7b-awq',
-    name: 'openhermes-2.5-mistral-7b-awq',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@hf/thebloke/neural-chat-7b-v3-1-awq',
-    name: 'neural-chat-7b-v3-1-awq',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@hf/nexusflow/starling-lm-7b-beta',
-    name: 'starling-lm-7b-beta',
+    id: '@cf/meta/llama-3-8b-instruct',
+    name: 'llama-3-8b-instruct',
     provider: 'workers-ai',
     type: 'chat'
 }]

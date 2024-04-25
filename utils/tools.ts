@@ -37,7 +37,7 @@ export function scrollToTop(el: HTMLElement | null) {
 export function getSystemPrompt() {
     const p: OpenAIMessage = {
         role: 'system',
-        content: 'You are ChatGPT, a large language model trained by OpenAI. Follow the user\'s instructions carefully. Respond using markdown.'
+        content: 'Follow the user\'s instructions carefully. Respond using markdown.'
     }
     return p
 }
